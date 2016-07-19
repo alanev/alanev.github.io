@@ -1,0 +1,37 @@
+{
+    "name": "alanev",
+    "description": "Professional web development",
+    "logo": {
+        "url": "./alanev.svg"
+    },
+    "contacts": {
+        "email": {
+            "address": "e@alanev.ru",
+            "url": "mailto:e@alanev.ru"
+        },
+        "skype": {
+            "username": "e.alanev",
+            "url": "skype:e.alanev"
+        },
+        "github": {
+            "username": "alanev",
+            "url": "https://github.com/alanev"
+        },
+        "bitbucket": {
+            "username": "alanev",
+            "url": "https://bitbucket.com/alanev"
+        },
+        "fl.ru": {
+            "username": "e_alanev",
+            "url": "https://fl.ru/users/e_alanev"
+        }
+    },
+    "techs": [
+        "gulp",
+        "bem",
+        "nodejs",
+        "postcss",
+        "es2015",
+        "git"
+    ]
+}

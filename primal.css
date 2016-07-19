@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+.data{
+    counter-reset: lines;
+    margin: 0;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    white-space: nowrap;
+}
+a{
+    position: relative;
+    color: rgba(4, 81, 165, 1);
+}
+a:visited{
+    color: darkmagenta;
+}
+a:hover{
+    text-decoration: none;
+}
+a > img{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+a:hover > img{
+    display: block;
+}
+.tab{
+    display: inline-block;
+    width: 20px;
+}
+.string{
+    color: darkgreen;
+}
+.prop > .string{
+    color: darkred;
+}
+.line{
+    counter-increment: lines;
+}
+.line::before{
+    content: counter(lines);
+    display: inline-block;
+    width: 30px;
+    padding: 0 5px;
+    margin: 0 5px 0 0;
+    text-align: right;
+    background: #eee;
+}
